@@ -988,7 +988,7 @@ body.inner-page {
 	left: 2px;
 	top: 1px;
 	margin-bottom: 50px;
-	font-family: Roboto;
+	font-family: "Roboto", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -1010,14 +1010,14 @@ body.inner-page {
 
 .features legend {
 	text-transform: uppercase;
-	font-family: Roboto;
+	font-family: "Roboto", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 }
 
 .grid legend {
 	text-transform: uppercase;
-	font-family: Roboto;
+	font-family: "Roboto", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 
@@ -1067,7 +1067,7 @@ body.inner-page {
 	position: relative;
 	left: -2px;
 	margin-top: 2px;
-	font-family: Roboto;
+	font-family: "Roboto", Arial, sans-serif;
 	font-size: 18px;
 	font-weight: bold;
 }
