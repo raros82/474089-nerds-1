@@ -1269,10 +1269,7 @@ input[type="radio"]:disabled + .radio-indicator::before {
 	color: black;
 }
 
-.checkbox-catalog:hover .checkbox-indicator::before,
-.checkbox-catalog:focus .checkbox-indicator::before {
-	opacity: 1;
-}
+
 
 .checkbox-indicator::before {
 	content: "";
@@ -1292,10 +1289,12 @@ input[type="checkbox"]:checked + .checkbox-indicator::before {
 	height: 25px;
 	background-image: url(../img/checkbox-on.svg);
 	background-repeat: no-repeat;
-	opacity: 0.4;
 }
 
-
+.checkbox-catalog:hover .checkbox-indicator::before,
+.checkbox-catalog:focus .checkbox-indicator::before {
+	opacity: 1;
+}
 
 
 
@@ -1722,4 +1721,8 @@ input[type="checkbox"]:checked + .checkbox-indicator::before {
 	box-sizing: border-box;
 	background-color: white;
 	border: 3px solid #dbdbdb;
+}
+
+iframe {
+	border: none;
 }
