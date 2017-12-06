@@ -1,0 +1,208 @@
+:before{
+    position: absolute;
+    padding: 2px 5px;
+    left: 0;
+    bottom: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.main-header{
+    position: relative;
+    outline: 1px solid green;
+}
+
+.main-header:before{
+    content: ".main-header";
+    background: green;
+}
+
+
+.main-navigation{
+    position: relative;
+    outline: 1px solid red;
+}
+
+.main-navigation:before{
+    content: ".main-navigation";
+    background: red;
+}
+
+
+.container{
+    position: relative;
+    outline: 1px solid yellow;
+}
+
+.container:before{
+    content: ".container";
+    background: yellow;
+    color: black;
+}
+
+
+.main-header-logo{
+    position: relative;
+    outline: 1px solid blue;
+}
+
+.main-header-logo:before{
+    content: "main-header-logo";
+    background: blue;
+    bottom: 100%;
+}
+
+.site-navigation{
+    position: relative;
+    outline: 1px solid blue;
+}
+
+.site-navigation:before{
+    content: "site-navigation";
+    background: blue;
+    bottom: 0;
+}
+
+.user-navigation{
+    position: relative;
+    outline: 1px solid blue;
+}
+
+.user-navigation:before{
+    content: "user-navigation";
+    background: blue;
+    bottom: 100%;
+}
+
+.slider{
+    position: relative;
+    outline: 1px solid orange;
+}
+
+.slider:before{
+    content: "slider";
+    background: orange;
+    bottom: 0;
+}
+
+.slide{
+    position: relative;
+    outline: 1px solid purple;
+}
+
+.slide:before{
+    content: "slide";
+    background: purple;
+    bottom: 0;
+}
+
+.main-container{
+    position: relative;
+    outline: 1px solid violet;
+}
+
+.main-container:before{
+    content: "main-container";
+    background: violet;
+    bottom: 0;
+}
+
+.we-can-do {
+    position: relative;
+    outline: 1px solid cyan;
+}
+
+.we-can-do:before{
+    content: "we-can-do";
+    background: cyan;
+    bottom: 0;
+}
+
+.about-us-wrapper {
+    position: relative;
+    outline: 1px solid magenta;
+}
+
+.about-us-wrapper:before{
+    content: "about-us-wrapper";
+    background: magenta;
+    bottom: 0;
+}
+
+.main-footer {
+    position: relative;
+    outline: 1px solid green;
+}
+
+.main-footer:before{
+    content: "main-footer";
+    background: green;
+    bottom: 0;
+}
+
+.main-footer-wrapper {
+    position: relative;
+    outline: 1px solid red;
+}
+
+.main-footer-wrapper:before{
+    content: "main-footer-wrapper";
+    background: red;
+    bottom: 0;
+}
+
+.contacts-wrapper {
+    position: relative;
+    outline: 1px solid green;
+}
+
+.contacts-wrapper:before{
+    content: "contacts-wrapper";
+    background: green;
+    bottom: 0;
+}
+.social {
+    position: relative;
+    outline: 1px solid red;
+}
+
+.social:before{
+    content: "social";
+    background: red;
+    bottom: 0;
+}
+
+.social-list-wrapper {
+    position: relative;
+    outline: 1px solid green;
+}
+
+.social-list-wrapper:before{
+    content: "social-list-wrapper";
+    background: green;
+    bottom: 0;
+}
+
+.lets-be-friends {
+    position: relative;
+    outline: 1px solid magenta;
+}
+
+.lets-be-friends:before{
+    content: "lets-be-friends";
+    background: magenta;
+    bottom: 0;
+}
+
+
+.social-list li {
+    position: relative;
+    outline: 1px solid magenta;
+}
+
+.social-list li:before{
+    content: "social-list li";
+    background: magenta;
+    bottom: 0;
+}
